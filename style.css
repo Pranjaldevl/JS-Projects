@@ -12,8 +12,19 @@ text-align: center;
     align-items: center;
     margin-top: 20vh;
 }
+.result{
+    background: transparent;
+    rotate: 90deg;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+#id{
+    rotate: 270deg;
+}
 .icon{
-    color: rgb(0, 0, 0);
+    background: transparent;
     width:100px;
     height:100px;
     border-radius: 50%;
@@ -22,3 +33,4 @@ text-align: center;
 .icon:hover{
     box-shadow: 0 0 5px 1px rgb(0, 89, 213);
 }
+

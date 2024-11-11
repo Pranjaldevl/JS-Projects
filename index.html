@@ -9,11 +9,14 @@
 <body>
     <h1>ROCK PAPER SCISSOR GAME</h1>
     <div id="container">
+    <button class="icon" onclick="play('rock')"><img src="images/rock.png" alt="Rock" width="100%"></button>
     <button class="icon" onclick="play('hand')"><img src="images/hand.png" alt="Hand" width="100%"></button>
-    <button class="icon" onclick="play('rock')><img src= "images/rock.png" alt="Rock" width="100%"></button>
     <button class="icon" onclick="play('scissors')"><img src="images/scissors.png" alt="Scissors" width="100%"></button>
     </div>
-    <button id="reset">Reset</button>
+    <button onclick="reset()" id="reset">Reset</button>
+    <div class="js-score div"></div>
+    <div class="js-result div"></div>
+    <div class="js-moves div"></div>
     <script src="script.js"></script>
 </body>
 </html>
